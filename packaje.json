@@ -1,0 +1,27 @@
+{
+  "name": "fenrysbot-grupos",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp para administrar grupos con Baileys",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "grupos",
+    "admin"
+  ],
+  "author": "Erenxzy",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^2.5.1",
+    "lowdb": "^6.1.1",
+    "pino": "^9.3.2",
+    "chalk": "^5.3.0",
+    "cfonts": "^3.3.0"
+  }
+}
